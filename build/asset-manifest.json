@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f4af40d.chunk.css",
+    "main.js": "/static/js/main.99b6b62c.chunk.js",
+    "main.js.map": "/static/js/main.99b6b62c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2511424e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2511424e.js.map",
+    "static/css/2.6dacf5a8.chunk.css": "/static/css/2.6dacf5a8.chunk.css",
+    "static/js/2.a4ce8643.chunk.js": "/static/js/2.a4ce8643.chunk.js",
+    "static/js/2.a4ce8643.chunk.js.map": "/static/js/2.a4ce8643.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fc81dd80ad68c490e90d549129885cf1.js": "/precache-manifest.fc81dd80ad68c490e90d549129885cf1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6dacf5a8.chunk.css.map": "/static/css/2.6dacf5a8.chunk.css.map",
+    "static/css/main.2f4af40d.chunk.css.map": "/static/css/main.2f4af40d.chunk.css.map",
+    "static/js/2.a4ce8643.chunk.js.LICENSE.txt": "/static/js/2.a4ce8643.chunk.js.LICENSE.txt",
+    "static/media/Area47.png": "/static/media/Area47.e4da3480.png",
+    "static/media/BurjKhalifa.png": "/static/media/BurjKhalifa.13b0a216.png",
+    "static/media/GrandCanyon.png": "/static/media/GrandCanyon.45346808.png",
+    "static/media/Louvre.png": "/static/media/Louvre.7f52fe12.png",
+    "static/media/NewYork.png": "/static/media/NewYork.94c72b99.png",
+    "static/media/Pyramid.png": "/static/media/Pyramid.d7b6bc08.png",
+    "static/media/Robot.png": "/static/media/Robot.c27d4c07.png",
+    "static/media/SightList.css": "/static/media/arrow.ccc35c3f.svg",
+    "static/media/image-placeholder.svg": "/static/media/image-placeholder.1e7d8675.svg",
+    "static/media/marker.png": "/static/media/marker.f0bc1707.png",
+    "static/media/pin.svg": "/static/media/pin.44da0c1e.svg",
+    "static/media/planat_logo.png": "/static/media/planat_logo.6987b4ac.png",
+    "static/media/SearchBar.css": "/static/media/right-arrow.40ea8240.svg",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2511424e.js",
+    "static/css/2.6dacf5a8.chunk.css",
+    "static/js/2.a4ce8643.chunk.js",
+    "static/css/main.2f4af40d.chunk.css",
+    "static/js/main.99b6b62c.chunk.js"
+  ]
+}
