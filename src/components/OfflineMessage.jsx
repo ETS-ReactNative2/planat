@@ -36,6 +36,6 @@ import React, { useState, useEffect } from 'react';
         }
       `}</style>
     </>) : null;
-};
+}
 
 export default OfflineMessage;

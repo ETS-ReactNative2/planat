@@ -25,6 +25,7 @@
     "leaflet-control-geocoder": "^1.13.0",
     "leaflet-geocoder-mapzen": "^1.9.4",
     "material-auto-rotating-carousel": "^3.0.2",
+    "npm-git-install": "^0.3.0",
     "prop-types": "^15.7.2",
     "rc-slider": "^9.3.1",
     "react": "^16.13.1",

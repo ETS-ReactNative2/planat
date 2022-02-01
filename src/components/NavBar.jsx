@@ -1,12 +1,10 @@
 import React from "react";
-//import { useAuth0 } from "@auth0/auth0-react";
 import "../assets/css/NavBar.css";
 import { Link , useLocation,useHistory } from "react-router-dom";
 import Logo from "../assets/images/planat_logo.png"
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 const NavBar = (props) => {
-  //const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
 
  let link;
  let history = useHistory();

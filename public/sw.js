@@ -33,7 +33,7 @@ self.addEventListener('install', event => {
   );
 });
 
-/*Régi cache törlése*/
+/*Delete old cache*/
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(cacheNames => {
@@ -50,22 +50,21 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
     event.respondWith(
-    caches.match(event.request)// cache elérése
+    caches.match(event.request)
     .then(response => {
       if (response) {
         return response;
       }
-    return fetch(event.request) //hálózati kérés
+    return fetch(event.request)
     .then(response => {
       return caches.open(cacheName)
       .then(cache => {
-        cache.put(event.request.url, response.clone());  //lekért adatok cachelése
+        cache.put(event.request.url, response.clone());  //cache the data
         return response;
       });
     });
     }).catch(error => {
       
-    //console.log('Error, ', error);
     return caches.match('offline.html');
     })
     );

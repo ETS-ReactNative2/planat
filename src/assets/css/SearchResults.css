@@ -5,7 +5,7 @@
 .search-results {
   padding-top: 20px;
   position: relative;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 200px);
   display: flex;
 }
 
@@ -35,7 +35,7 @@
 
 .search-results__sightlist-filter-container .sight-list {
   overflow-y: scroll;
-  height: calc(100% - 60px);
+  height: 100%;
 }
 
 .loader {

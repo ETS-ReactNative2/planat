@@ -149,9 +149,6 @@ html {
   grid-auto-flow: column;
 }
 
-/*.card__image {
-  max-height: 175px;
-}*/
 
 .slick-slide{
   width: 100%;
@@ -199,7 +196,6 @@ html {
   width: 95%;
 }
 
-
 }
 
 
@@ -218,7 +214,7 @@ html {
   
   .recommendations {
 
-    grid-template-rows:  92% 15%;;
+    grid-template-rows:  92% 15%;
 
 }
 
@@ -251,6 +247,7 @@ html {
 
  .recommendations__cards .card__body{
     padding:16px !important;
+    justify-content: unset;
   } 
   .recommendations__cards .card__body .card__body__address,
   .recommendations__cards .card__body .card__body__details,
@@ -276,14 +273,9 @@ html {
     font-size: 9px;
     margin:2px;
   }
-  .recommendations__cards .card__body{
-    justify-content: unset;
-  }
+  
 
-
-
-
-    .recommendations__container .carousel{
+  .recommendations__container .carousel{
       margin-bottom:0;
     }
 
@@ -293,7 +285,6 @@ html {
   }
 
  
-
   .slick-list .card__image {
     width: 100%;
     max-height: 200px;
@@ -302,6 +293,7 @@ html {
 
   .slick-list .card__body{
     padding: 16px;
+    justify-content: unset;
   }
 
   .slick-list .card__body .card__body__address,
@@ -327,9 +319,7 @@ html {
     font-size: 9px;
     margin:2px;
   }
-  .slick-list .card__body{
-    justify-content: unset;
-  }
+ 
   .slick-slide > div {
     height: 100%;
     margin: 8px;
