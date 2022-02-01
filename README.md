@@ -1,4 +1,4 @@
-# planat
+# Planat PWA
 First need a request to access demo cors server at https://cors-anywhere.herokuapp.com/corsdemo
 
 The web app can be accessed here: https://planat-3b625.firebaseapp.com/
