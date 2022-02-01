@@ -26,26 +26,7 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('sw.js')
-       /* .then((registration) => {
-          console.log('registered');
-          console.log(registration);
-        },(err) => {
-        console.log(err)
-        })*/
-
-        .then((response)=>{
-       
-          //console.log("response",response)
-     
-         /* return response.pushManager.getSubscription()
-          .then(function (subscription) {
-             return response.pushManager.subscribe({
-              userVisibleOnly: true,
-              applicationServerKey: determineAppServerKey()
-            })
-          })
-          */
-        })
+        .then((response)=>{})
       });
   
       

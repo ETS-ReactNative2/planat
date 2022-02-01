@@ -227,6 +227,7 @@ a:hover {
     width: 87%;
     height: 21vh;
     flex-direction: column;
+    transform: translate(0, -5%);
   }
 
   .search-bar__element {
@@ -258,8 +259,6 @@ a:hover {
     left: 40%;
 
   }
-  .search-bar {
-    transform: translate(0, -5%);}
 
   .search-bar__popup {
     width: 100%;
