@@ -9,7 +9,7 @@ const Home = () => {
   const cities = ["London", "Paris", "Brasov", "Budapest", "Cluj"];
 
   const [radius, setRadius] = useState(5);
-  const [recPlace/*, setRecPlace*/] = useState(
+  const [recPlace] = useState(
     cities[Math.floor(Math.random() * cities.length)])
 
   let sliderValueChange = (value) => {
