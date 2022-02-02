@@ -36,20 +36,15 @@
   text-align: center;
 }
 
-
-
 .navbar {
   z-index: 10;
 }
 
-
-
-/* for smart phones */
+/* for smartphones */
 @media (max-width: 600px) {
   .home_page{
     padding-top: 0px;
   }
-  
   
 }
 
