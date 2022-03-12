@@ -60,7 +60,7 @@ function RecommendationsCarousel(props) {
     ],
   };
 
-  const url =
+  const MapsUrl =
     "https://maps.googleapis.com/maps/api/place/photo?maxwidth=450&max&photoreference=";
 
   return (
@@ -79,7 +79,7 @@ function RecommendationsCarousel(props) {
               name={elem.name}
               img={
                 elem.photos
-                  ? `${url}${elem.photos[0].photo_reference}&key=${process.env.REACT_APP_GOOGLE_PLACES_API_KEY}`
+                  ? `${MapsUrl}${elem.photos[0].photo_reference}&key=${process.env.REACT_APP_GOOGLE_PLACES_API_KEY}`
                   : ImagePlaceHolder
               }
               place_id={elem.place_id}

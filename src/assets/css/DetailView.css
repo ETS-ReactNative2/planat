@@ -31,7 +31,7 @@ body {
 
 .detail-container__title {
   grid-area: left;
-  font-family: Inter;
+  font-family:  "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -74,7 +74,7 @@ body {
   background: #fff;
   box-sizing: border-box;
   border-radius: 15px;
-  font-family: Inter;
+  font-family:  "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5em;
@@ -118,7 +118,7 @@ body {
 
 .detail-container__body .detail-container__body__description {
   width: 60%;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -180,7 +180,7 @@ body {
   width: 95%;
   margin: 40px auto 80px auto;
   box-sizing: border-box;
-  font-family: Inter;
+  font-family:  "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5em;
@@ -207,7 +207,7 @@ body {
 }
 
 .reviews-item__details .reviews-item__name {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: 700;

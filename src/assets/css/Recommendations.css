@@ -21,12 +21,10 @@ html {
 }
 
 .recommendations__cards {
-  margin: 16px;
   width: 95%;
   display: grid;
   grid-gap: 3%;
   grid-template-columns: 32.3% 32.3% 32.3%;
-
   margin: auto;
 }
 
@@ -72,7 +70,7 @@ html {
 
 .card__body .card__body__title {
   margin: 0px ;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -84,7 +82,7 @@ html {
 
 .card__body .card__body__address,
 .card__body__details {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -108,7 +106,7 @@ html {
 }
 
 .card__body__btn {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
