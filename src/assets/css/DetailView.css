@@ -118,7 +118,7 @@ body {
 
 .detail-container__body .detail-container__body__description {
   width: 60%;
-  font-family: "Inter", sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
